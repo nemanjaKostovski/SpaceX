@@ -1,0 +1,57 @@
+
+body {
+  margin: 0 auto;
+  background: black;
+  color: white;
+}
+
+h1 {
+  margin: 0 auto;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.header-logo img {
+  height: 100%;
+}
+
+#app {
+  text-align: center;
+}
+
+.info{
+  margin: 0 auto;
+  background-image: url("../img/spacex.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  font-size: 5rem;
+}
+
+.launch {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid indigo;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.mission-logo{
+  width: 80px;
+  height: 80px;
+}
+
+.styling{
+  font-size: 3rem;
+}
+
+.size{
+  height: 100px;
+}
+
+h2{
+  width: 200px;
+}
