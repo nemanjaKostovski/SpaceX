@@ -26,8 +26,10 @@ h1 {
   background-image: url("../img/spacex.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 800px;
+  height: 100vh;
   font-size: 5rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .launch {

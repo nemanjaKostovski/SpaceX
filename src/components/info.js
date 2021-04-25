@@ -12,15 +12,15 @@ class Info{
         this.banner.textContent = this.name;
         this.banner.className = 'baner';
         this.txtFounder = document.createElement('label');
-        this.txtFounder.textContent = this.founder;
+        this.txtFounder.textContent = `Founder: ${this.founder}`;
         this.txtFounder.className = 'styling';
         
         this.txtFounded = document.createElement('label');
-        this.txtFounded.textContent = this.founded;
+        this.txtFounded.textContent = `Year: ${this.founded}`;
         this.txtFounded.className = 'styling';
         
         this.txtCeo = document.createElement('label');
-        this.txtCeo.textContent = this.ceo;
+        this.txtCeo.textContent = `CEO: ${this.ceo}`;
         this.txtCeo.className = 'styling';
 
         this.node.appendChild(this.banner);
